@@ -1,4 +1,6 @@
-# iOS Application Architecture Design
+# iOS Modular Architecture
+
+This is just me practicing a modular architecture :)
 
 **Object Oriented Design Patterns**
 We have used several design patterns in the projects, main ones:
