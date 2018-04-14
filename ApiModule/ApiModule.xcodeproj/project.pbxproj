@@ -1,0 +1,1008 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371F00F138DCB0D8822D14AA /* libPods-ApiModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F53458173388DE25BA3A909 /* libPods-ApiModule.a */; };
+		476649A1202F24A800AE1406 /* ApiModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47664997202F24A800AE1406 /* ApiModule.framework */; };
+		476649A8202F24A800AE1406 /* ApiModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 4766499A202F24A800AE1406 /* ApiModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B3110C202F25D400FBE70B /* ApiModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31085202F25D300FBE70B /* ApiModule.m */; };
+		47B311AF202F260100FBE70B /* ApiConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3110F202F260100FBE70B /* ApiConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B311B0202F260100FBE70B /* CustomURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31111202F260100FBE70B /* CustomURLSession.h */; };
+		47B311B1202F260100FBE70B /* CustomURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31112202F260100FBE70B /* CustomURLSession.m */; };
+		47B311B2202F260100FBE70B /* ApiConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31113202F260100FBE70B /* ApiConfiguration.m */; };
+		47B311B3202F260100FBE70B /* PaymentApiURLGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31116202F260100FBE70B /* PaymentApiURLGenerator.h */; };
+		47B311B4202F260100FBE70B /* DefaultPaymentApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31118202F260100FBE70B /* DefaultPaymentApi.m */; };
+		47B311B5202F260100FBE70B /* DefaultPaymentApiURLGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31119202F260100FBE70B /* DefaultPaymentApiURLGenerator.m */; };
+		47B311B6202F260100FBE70B /* DefaultPaymentApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3111A202F260100FBE70B /* DefaultPaymentApi.h */; };
+		47B311B7202F260100FBE70B /* DefaultPaymentApiURLGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3111B202F260100FBE70B /* DefaultPaymentApiURLGenerator.h */; };
+		47B311B8202F260100FBE70B /* CreditCard+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3111D202F260100FBE70B /* CreditCard+Private.h */; };
+		47B311B9202F260100FBE70B /* PayRequestModel+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3111E202F260100FBE70B /* PayRequestModel+Private.h */; };
+		47B311BA202F260100FBE70B /* Payments+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3111F202F260100FBE70B /* Payments+Private.h */; };
+		47B311BB202F260100FBE70B /* Payments.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31120202F260100FBE70B /* Payments.m */; };
+		47B311BC202F260100FBE70B /* PayRequestModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31121202F260100FBE70B /* PayRequestModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B311BD202F260100FBE70B /* CreditCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31122202F260100FBE70B /* CreditCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B311BE202F260100FBE70B /* Payment.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31123202F260100FBE70B /* Payment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B311BF202F260100FBE70B /* Payments.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31124202F260100FBE70B /* Payments.h */; };
+		47B311C0202F260100FBE70B /* Payment+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31125202F260100FBE70B /* Payment+Private.h */; };
+		47B311C1202F260100FBE70B /* PayRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31126202F260100FBE70B /* PayRequestModel.m */; };
+		47B311C2202F260100FBE70B /* Payment.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31127202F260100FBE70B /* Payment.m */; };
+		47B311C3202F260100FBE70B /* CreditCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31128202F260100FBE70B /* CreditCard.m */; };
+		47B311C4202F260100FBE70B /* PaymentApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31129202F260100FBE70B /* PaymentApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B311C5202F260100FBE70B /* DefaultPlaceApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B3112C202F260100FBE70B /* DefaultPlaceApi.m */; };
+		47B311C6202F260100FBE70B /* DefaultPlaceApiURLGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3112D202F260100FBE70B /* DefaultPlaceApiURLGenerator.h */; };
+		47B311C7202F260100FBE70B /* DefaultPlaceApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3112E202F260100FBE70B /* DefaultPlaceApi.h */; };
+		47B311C8202F260100FBE70B /* DefaultPlaceApiURLGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B3112F202F260100FBE70B /* DefaultPlaceApiURLGenerator.m */; };
+		47B311C9202F260100FBE70B /* PlaceApiURLGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31130202F260100FBE70B /* PlaceApiURLGenerator.h */; };
+		47B311CA202F260100FBE70B /* PlaceLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31132202F260100FBE70B /* PlaceLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B311CB202F260100FBE70B /* Places+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31133202F260100FBE70B /* Places+Private.h */; };
+		47B311CC202F260100FBE70B /* Place+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31134202F260100FBE70B /* Place+Private.h */; };
+		47B311CD202F260100FBE70B /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31135202F260100FBE70B /* Place.m */; };
+		47B311CE202F260100FBE70B /* Places.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31136202F260100FBE70B /* Places.h */; };
+		47B311CF202F260100FBE70B /* PlaceLocation+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31137202F260100FBE70B /* PlaceLocation+Private.h */; };
+		47B311D0202F260100FBE70B /* PlaceLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31138202F260100FBE70B /* PlaceLocation.m */; };
+		47B311D1202F260100FBE70B /* Places.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31139202F260100FBE70B /* Places.m */; };
+		47B311D2202F260100FBE70B /* Place.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3113A202F260100FBE70B /* Place.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B311D3202F260100FBE70B /* PlaceApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3113B202F260100FBE70B /* PlaceApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B311D4202F260100FBE70B /* UserApiURLGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3113D202F260100FBE70B /* UserApiURLGenerator.h */; };
+		47B311D5202F260100FBE70B /* DefaultUserApiURLGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B3113F202F260100FBE70B /* DefaultUserApiURLGenerator.m */; };
+		47B311D6202F260100FBE70B /* DefaultSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31140202F260100FBE70B /* DefaultSessionManager.h */; };
+		47B311D7202F260100FBE70B /* DefaultUserApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31141202F260100FBE70B /* DefaultUserApi.h */; };
+		47B311D8202F260100FBE70B /* DefaultUserApiURLGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31142202F260100FBE70B /* DefaultUserApiURLGenerator.h */; };
+		47B311D9202F260100FBE70B /* DefaultSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31143202F260100FBE70B /* DefaultSessionManager.m */; };
+		47B311DA202F260100FBE70B /* DefaultUserApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31144202F260100FBE70B /* DefaultUserApi.m */; };
+		47B311DB202F260100FBE70B /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31146202F260100FBE70B /* Session.m */; };
+		47B311DC202F260100FBE70B /* Session+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31147202F260100FBE70B /* Session+Private.h */; };
+		47B311DD202F260100FBE70B /* UserCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31148202F260100FBE70B /* UserCredentials.m */; };
+		47B311DE202F260100FBE70B /* UserCredentials+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31149202F260100FBE70B /* UserCredentials+Private.h */; };
+		47B311DF202F260100FBE70B /* Session.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3114A202F260100FBE70B /* Session.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B311E0202F260100FBE70B /* UserCredentials.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3114B202F260100FBE70B /* UserCredentials.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B311E1202F260100FBE70B /* UserApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3114C202F260100FBE70B /* UserApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B311E2202F260100FBE70B /* SessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3114D202F260100FBE70B /* SessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B311E3202F260100FBE70B /* ApiErrorResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3114F202F260100FBE70B /* ApiErrorResolver.h */; };
+		47B311E4202F260100FBE70B /* DefaultErrorResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31151202F260100FBE70B /* DefaultErrorResolver.h */; };
+		47B311E5202F260100FBE70B /* DefaultErrorResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31152202F260100FBE70B /* DefaultErrorResolver.m */; };
+		47B311E6202F260100FBE70B /* ApiError.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31154202F260100FBE70B /* ApiError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B311E7202F260100FBE70B /* ApiError+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31155202F260100FBE70B /* ApiError+Private.h */; };
+		47B311E8202F260100FBE70B /* ApiError.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31156202F260100FBE70B /* ApiError.m */; };
+		47B311E9202F260100FBE70B /* DefaultApiFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B31159202F260100FBE70B /* DefaultApiFactory.m */; };
+		47B311EA202F260100FBE70B /* DefaultApiFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3115A202F260100FBE70B /* DefaultApiFactory.h */; };
+		47B311EB202F260100FBE70B /* ApiFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3115B202F260100FBE70B /* ApiFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B312DF202F263E00FBE70B /* apiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B312D8202F263E00FBE70B /* apiTests.m */; };
+		47B31430202FF8AE00FBE70B /* NSString+Validation.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B3142E202FF8AE00FBE70B /* NSString+Validation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B31431202FF8AE00FBE70B /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B3142F202FF8AE00FBE70B /* NSString+Validation.m */; };
+		47D4B210208194B900A07243 /* MockApiFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D4B209208194B900A07243 /* MockApiFactory.m */; };
+		47D4B211208194B900A07243 /* put_payment.json in Resources */ = {isa = PBXBuildFile; fileRef = 47D4B20B208194B900A07243 /* put_payment.json */; };
+		47D4B212208194B900A07243 /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = 47D4B20C208194B900A07243 /* places.json */; };
+		47D4B213208194B900A07243 /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 47D4B20D208194B900A07243 /* user.json */; };
+		47D4B214208194B900A07243 /* payments.json in Resources */ = {isa = PBXBuildFile; fileRef = 47D4B20E208194B900A07243 /* payments.json */; };
+		47D4B215208194B900A07243 /* MockApiFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D4B20F208194B900A07243 /* MockApiFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3157E67F57B61C454ACA127 /* libPods-ApiModuleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E7E3CEAD9EF70A935FFD3B /* libPods-ApiModuleTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		476649A2202F24A800AE1406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4766498E202F24A800AE1406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47664996202F24A800AE1406;
+			remoteInfo = ApiModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B4783E35744ECDFFB9DDA21 /* Pods-ApiModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiModule.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ApiModule/Pods-ApiModule.release.xcconfig"; sourceTree = "<group>"; };
+		10E7E3CEAD9EF70A935FFD3B /* libPods-ApiModuleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ApiModuleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47664997202F24A800AE1406 /* ApiModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApiModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4766499A202F24A800AE1406 /* ApiModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiModule.h; sourceTree = "<group>"; };
+		4766499B202F24A800AE1406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476649A0202F24A800AE1406 /* ApiModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		476649A7202F24A800AE1406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47B31085202F25D300FBE70B /* ApiModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiModule.m; sourceTree = "<group>"; };
+		47B3110F202F260100FBE70B /* ApiConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiConfiguration.h; sourceTree = "<group>"; };
+		47B31111202F260100FBE70B /* CustomURLSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomURLSession.h; sourceTree = "<group>"; };
+		47B31112202F260100FBE70B /* CustomURLSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomURLSession.m; sourceTree = "<group>"; };
+		47B31113202F260100FBE70B /* ApiConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiConfiguration.m; sourceTree = "<group>"; };
+		47B31116202F260100FBE70B /* PaymentApiURLGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentApiURLGenerator.h; sourceTree = "<group>"; };
+		47B31118202F260100FBE70B /* DefaultPaymentApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultPaymentApi.m; sourceTree = "<group>"; };
+		47B31119202F260100FBE70B /* DefaultPaymentApiURLGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultPaymentApiURLGenerator.m; sourceTree = "<group>"; };
+		47B3111A202F260100FBE70B /* DefaultPaymentApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultPaymentApi.h; sourceTree = "<group>"; };
+		47B3111B202F260100FBE70B /* DefaultPaymentApiURLGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultPaymentApiURLGenerator.h; sourceTree = "<group>"; };
+		47B3111D202F260100FBE70B /* CreditCard+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CreditCard+Private.h"; sourceTree = "<group>"; };
+		47B3111E202F260100FBE70B /* PayRequestModel+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PayRequestModel+Private.h"; sourceTree = "<group>"; };
+		47B3111F202F260100FBE70B /* Payments+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Payments+Private.h"; sourceTree = "<group>"; };
+		47B31120202F260100FBE70B /* Payments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Payments.m; sourceTree = "<group>"; };
+		47B31121202F260100FBE70B /* PayRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayRequestModel.h; sourceTree = "<group>"; };
+		47B31122202F260100FBE70B /* CreditCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCard.h; sourceTree = "<group>"; };
+		47B31123202F260100FBE70B /* Payment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payment.h; sourceTree = "<group>"; };
+		47B31124202F260100FBE70B /* Payments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payments.h; sourceTree = "<group>"; };
+		47B31125202F260100FBE70B /* Payment+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Payment+Private.h"; sourceTree = "<group>"; };
+		47B31126202F260100FBE70B /* PayRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayRequestModel.m; sourceTree = "<group>"; };
+		47B31127202F260100FBE70B /* Payment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Payment.m; sourceTree = "<group>"; };
+		47B31128202F260100FBE70B /* CreditCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCard.m; sourceTree = "<group>"; };
+		47B31129202F260100FBE70B /* PaymentApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentApi.h; sourceTree = "<group>"; };
+		47B3112C202F260100FBE70B /* DefaultPlaceApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultPlaceApi.m; sourceTree = "<group>"; };
+		47B3112D202F260100FBE70B /* DefaultPlaceApiURLGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultPlaceApiURLGenerator.h; sourceTree = "<group>"; };
+		47B3112E202F260100FBE70B /* DefaultPlaceApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultPlaceApi.h; sourceTree = "<group>"; };
+		47B3112F202F260100FBE70B /* DefaultPlaceApiURLGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultPlaceApiURLGenerator.m; sourceTree = "<group>"; };
+		47B31130202F260100FBE70B /* PlaceApiURLGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceApiURLGenerator.h; sourceTree = "<group>"; };
+		47B31132202F260100FBE70B /* PlaceLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceLocation.h; sourceTree = "<group>"; };
+		47B31133202F260100FBE70B /* Places+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Places+Private.h"; sourceTree = "<group>"; };
+		47B31134202F260100FBE70B /* Place+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Place+Private.h"; sourceTree = "<group>"; };
+		47B31135202F260100FBE70B /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		47B31136202F260100FBE70B /* Places.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Places.h; sourceTree = "<group>"; };
+		47B31137202F260100FBE70B /* PlaceLocation+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PlaceLocation+Private.h"; sourceTree = "<group>"; };
+		47B31138202F260100FBE70B /* PlaceLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceLocation.m; sourceTree = "<group>"; };
+		47B31139202F260100FBE70B /* Places.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Places.m; sourceTree = "<group>"; };
+		47B3113A202F260100FBE70B /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		47B3113B202F260100FBE70B /* PlaceApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceApi.h; sourceTree = "<group>"; };
+		47B3113D202F260100FBE70B /* UserApiURLGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserApiURLGenerator.h; sourceTree = "<group>"; };
+		47B3113F202F260100FBE70B /* DefaultUserApiURLGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultUserApiURLGenerator.m; sourceTree = "<group>"; };
+		47B31140202F260100FBE70B /* DefaultSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultSessionManager.h; sourceTree = "<group>"; };
+		47B31141202F260100FBE70B /* DefaultUserApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultUserApi.h; sourceTree = "<group>"; };
+		47B31142202F260100FBE70B /* DefaultUserApiURLGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultUserApiURLGenerator.h; sourceTree = "<group>"; };
+		47B31143202F260100FBE70B /* DefaultSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultSessionManager.m; sourceTree = "<group>"; };
+		47B31144202F260100FBE70B /* DefaultUserApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultUserApi.m; sourceTree = "<group>"; };
+		47B31146202F260100FBE70B /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
+		47B31147202F260100FBE70B /* Session+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Session+Private.h"; sourceTree = "<group>"; };
+		47B31148202F260100FBE70B /* UserCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCredentials.m; sourceTree = "<group>"; };
+		47B31149202F260100FBE70B /* UserCredentials+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UserCredentials+Private.h"; sourceTree = "<group>"; };
+		47B3114A202F260100FBE70B /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		47B3114B202F260100FBE70B /* UserCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCredentials.h; sourceTree = "<group>"; };
+		47B3114C202F260100FBE70B /* UserApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserApi.h; sourceTree = "<group>"; };
+		47B3114D202F260100FBE70B /* SessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
+		47B3114F202F260100FBE70B /* ApiErrorResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiErrorResolver.h; sourceTree = "<group>"; };
+		47B31151202F260100FBE70B /* DefaultErrorResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultErrorResolver.h; sourceTree = "<group>"; };
+		47B31152202F260100FBE70B /* DefaultErrorResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultErrorResolver.m; sourceTree = "<group>"; };
+		47B31154202F260100FBE70B /* ApiError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiError.h; sourceTree = "<group>"; };
+		47B31155202F260100FBE70B /* ApiError+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ApiError+Private.h"; sourceTree = "<group>"; };
+		47B31156202F260100FBE70B /* ApiError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiError.m; sourceTree = "<group>"; };
+		47B31159202F260100FBE70B /* DefaultApiFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultApiFactory.m; sourceTree = "<group>"; };
+		47B3115A202F260100FBE70B /* DefaultApiFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultApiFactory.h; sourceTree = "<group>"; };
+		47B3115B202F260100FBE70B /* ApiFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiFactory.h; sourceTree = "<group>"; };
+		47B312D8202F263E00FBE70B /* apiTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = apiTests.m; sourceTree = "<group>"; };
+		47B3142E202FF8AE00FBE70B /* NSString+Validation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
+		47B3142F202FF8AE00FBE70B /* NSString+Validation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
+		47D4B209208194B900A07243 /* MockApiFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockApiFactory.m; sourceTree = "<group>"; };
+		47D4B20B208194B900A07243 /* put_payment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = put_payment.json; sourceTree = "<group>"; };
+		47D4B20C208194B900A07243 /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
+		47D4B20D208194B900A07243 /* user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
+		47D4B20E208194B900A07243 /* payments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = payments.json; sourceTree = "<group>"; };
+		47D4B20F208194B900A07243 /* MockApiFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockApiFactory.h; sourceTree = "<group>"; };
+		4F53458173388DE25BA3A909 /* libPods-ApiModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ApiModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBC6A235822909322735022 /* Pods-ApiModuleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiModuleTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ApiModuleTests/Pods-ApiModuleTests.release.xcconfig"; sourceTree = "<group>"; };
+		C033F09B5DB227DE4773A37F /* Pods-ApiModuleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiModuleTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ApiModuleTests/Pods-ApiModuleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBD7B880B016ADEDDC6F0395 /* Pods-ApiModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiModule.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ApiModule/Pods-ApiModule.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47664993202F24A800AE1406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371F00F138DCB0D8822D14AA /* libPods-ApiModule.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4766499D202F24A800AE1406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476649A1202F24A800AE1406 /* ApiModule.framework in Frameworks */,
+				D3157E67F57B61C454ACA127 /* libPods-ApiModuleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08DAAA5DE9776549D94859C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBD7B880B016ADEDDC6F0395 /* Pods-ApiModule.debug.xcconfig */,
+				0B4783E35744ECDFFB9DDA21 /* Pods-ApiModule.release.xcconfig */,
+				C033F09B5DB227DE4773A37F /* Pods-ApiModuleTests.debug.xcconfig */,
+				8FBC6A235822909322735022 /* Pods-ApiModuleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4766498D202F24A800AE1406 = {
+			isa = PBXGroup;
+			children = (
+				47664999202F24A800AE1406 /* ApiModule */,
+				476649A4202F24A800AE1406 /* ApiModuleTests */,
+				47664998202F24A800AE1406 /* Products */,
+				08DAAA5DE9776549D94859C5 /* Pods */,
+				57666570B7E5C3E03086F9F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47664998202F24A800AE1406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47664997202F24A800AE1406 /* ApiModule.framework */,
+				476649A0202F24A800AE1406 /* ApiModuleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47664999202F24A800AE1406 /* ApiModule */ = {
+			isa = PBXGroup;
+			children = (
+				47D4B208208194B900A07243 /* mock */,
+				47B3110D202F260100FBE70B /* classes */,
+				4766499A202F24A800AE1406 /* ApiModule.h */,
+				47B31085202F25D300FBE70B /* ApiModule.m */,
+				4766499B202F24A800AE1406 /* Info.plist */,
+			);
+			path = ApiModule;
+			sourceTree = "<group>";
+		};
+		476649A4202F24A800AE1406 /* ApiModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				47B312D1202F263E00FBE70B /* classes */,
+				476649A7202F24A800AE1406 /* Info.plist */,
+			);
+			path = ApiModuleTests;
+			sourceTree = "<group>";
+		};
+		47B3110D202F260100FBE70B /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				47B3142D202FF89C00FBE70B /* validation */,
+				47B3110E202F260100FBE70B /* core */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		47B3110E202F260100FBE70B /* core */ = {
+			isa = PBXGroup;
+			children = (
+				47B31114202F260100FBE70B /* api */,
+				47B3110F202F260100FBE70B /* ApiConfiguration.h */,
+				47B31113202F260100FBE70B /* ApiConfiguration.m */,
+				47B3114E202F260100FBE70B /* error */,
+				47B31157202F260100FBE70B /* factory */,
+				47B31110202F260100FBE70B /* network */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		47B31110202F260100FBE70B /* network */ = {
+			isa = PBXGroup;
+			children = (
+				47B31111202F260100FBE70B /* CustomURLSession.h */,
+				47B31112202F260100FBE70B /* CustomURLSession.m */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		47B31114202F260100FBE70B /* api */ = {
+			isa = PBXGroup;
+			children = (
+				47B31115202F260100FBE70B /* payment */,
+				47B3112A202F260100FBE70B /* places */,
+				47B3113C202F260100FBE70B /* user */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		47B31115202F260100FBE70B /* payment */ = {
+			isa = PBXGroup;
+			children = (
+				47B31129202F260100FBE70B /* PaymentApi.h */,
+				47B31116202F260100FBE70B /* PaymentApiURLGenerator.h */,
+				47B31117202F260100FBE70B /* implementation */,
+				47B3111C202F260100FBE70B /* model */,
+			);
+			path = payment;
+			sourceTree = "<group>";
+		};
+		47B31117202F260100FBE70B /* implementation */ = {
+			isa = PBXGroup;
+			children = (
+				47B3111A202F260100FBE70B /* DefaultPaymentApi.h */,
+				47B31118202F260100FBE70B /* DefaultPaymentApi.m */,
+				47B3111B202F260100FBE70B /* DefaultPaymentApiURLGenerator.h */,
+				47B31119202F260100FBE70B /* DefaultPaymentApiURLGenerator.m */,
+			);
+			path = implementation;
+			sourceTree = "<group>";
+		};
+		47B3111C202F260100FBE70B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				47B31122202F260100FBE70B /* CreditCard.h */,
+				47B31128202F260100FBE70B /* CreditCard.m */,
+				47B3111D202F260100FBE70B /* CreditCard+Private.h */,
+				47B31123202F260100FBE70B /* Payment.h */,
+				47B31127202F260100FBE70B /* Payment.m */,
+				47B31125202F260100FBE70B /* Payment+Private.h */,
+				47B31124202F260100FBE70B /* Payments.h */,
+				47B31120202F260100FBE70B /* Payments.m */,
+				47B3111F202F260100FBE70B /* Payments+Private.h */,
+				47B31121202F260100FBE70B /* PayRequestModel.h */,
+				47B31126202F260100FBE70B /* PayRequestModel.m */,
+				47B3111E202F260100FBE70B /* PayRequestModel+Private.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		47B3112A202F260100FBE70B /* places */ = {
+			isa = PBXGroup;
+			children = (
+				47B3113B202F260100FBE70B /* PlaceApi.h */,
+				47B31130202F260100FBE70B /* PlaceApiURLGenerator.h */,
+				47B3112B202F260100FBE70B /* implementation */,
+				47B31131202F260100FBE70B /* model */,
+			);
+			path = places;
+			sourceTree = "<group>";
+		};
+		47B3112B202F260100FBE70B /* implementation */ = {
+			isa = PBXGroup;
+			children = (
+				47B3112C202F260100FBE70B /* DefaultPlaceApi.m */,
+				47B3112D202F260100FBE70B /* DefaultPlaceApiURLGenerator.h */,
+				47B3112E202F260100FBE70B /* DefaultPlaceApi.h */,
+				47B3112F202F260100FBE70B /* DefaultPlaceApiURLGenerator.m */,
+			);
+			path = implementation;
+			sourceTree = "<group>";
+		};
+		47B31131202F260100FBE70B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				47B3113A202F260100FBE70B /* Place.h */,
+				47B31135202F260100FBE70B /* Place.m */,
+				47B31134202F260100FBE70B /* Place+Private.h */,
+				47B31132202F260100FBE70B /* PlaceLocation.h */,
+				47B31138202F260100FBE70B /* PlaceLocation.m */,
+				47B31137202F260100FBE70B /* PlaceLocation+Private.h */,
+				47B31136202F260100FBE70B /* Places.h */,
+				47B31139202F260100FBE70B /* Places.m */,
+				47B31133202F260100FBE70B /* Places+Private.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		47B3113C202F260100FBE70B /* user */ = {
+			isa = PBXGroup;
+			children = (
+				47B3114D202F260100FBE70B /* SessionManager.h */,
+				47B3114C202F260100FBE70B /* UserApi.h */,
+				47B3113D202F260100FBE70B /* UserApiURLGenerator.h */,
+				47B3113E202F260100FBE70B /* implementation */,
+				47B31145202F260100FBE70B /* model */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		47B3113E202F260100FBE70B /* implementation */ = {
+			isa = PBXGroup;
+			children = (
+				47B3113F202F260100FBE70B /* DefaultUserApiURLGenerator.m */,
+				47B31140202F260100FBE70B /* DefaultSessionManager.h */,
+				47B31141202F260100FBE70B /* DefaultUserApi.h */,
+				47B31142202F260100FBE70B /* DefaultUserApiURLGenerator.h */,
+				47B31143202F260100FBE70B /* DefaultSessionManager.m */,
+				47B31144202F260100FBE70B /* DefaultUserApi.m */,
+			);
+			path = implementation;
+			sourceTree = "<group>";
+		};
+		47B31145202F260100FBE70B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				47B3114A202F260100FBE70B /* Session.h */,
+				47B31146202F260100FBE70B /* Session.m */,
+				47B31147202F260100FBE70B /* Session+Private.h */,
+				47B3114B202F260100FBE70B /* UserCredentials.h */,
+				47B31148202F260100FBE70B /* UserCredentials.m */,
+				47B31149202F260100FBE70B /* UserCredentials+Private.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		47B3114E202F260100FBE70B /* error */ = {
+			isa = PBXGroup;
+			children = (
+				47B3114F202F260100FBE70B /* ApiErrorResolver.h */,
+				47B31150202F260100FBE70B /* implementation */,
+				47B31153202F260100FBE70B /* model */,
+			);
+			path = error;
+			sourceTree = "<group>";
+		};
+		47B31150202F260100FBE70B /* implementation */ = {
+			isa = PBXGroup;
+			children = (
+				47B31151202F260100FBE70B /* DefaultErrorResolver.h */,
+				47B31152202F260100FBE70B /* DefaultErrorResolver.m */,
+			);
+			path = implementation;
+			sourceTree = "<group>";
+		};
+		47B31153202F260100FBE70B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				47B31154202F260100FBE70B /* ApiError.h */,
+				47B31155202F260100FBE70B /* ApiError+Private.h */,
+				47B31156202F260100FBE70B /* ApiError.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		47B31157202F260100FBE70B /* factory */ = {
+			isa = PBXGroup;
+			children = (
+				47B31158202F260100FBE70B /* implementation */,
+				47B3115B202F260100FBE70B /* ApiFactory.h */,
+			);
+			path = factory;
+			sourceTree = "<group>";
+		};
+		47B31158202F260100FBE70B /* implementation */ = {
+			isa = PBXGroup;
+			children = (
+				47B31159202F260100FBE70B /* DefaultApiFactory.m */,
+				47B3115A202F260100FBE70B /* DefaultApiFactory.h */,
+			);
+			path = implementation;
+			sourceTree = "<group>";
+		};
+		47B312D1202F263E00FBE70B /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				47B312D8202F263E00FBE70B /* apiTests.m */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		47B3142D202FF89C00FBE70B /* validation */ = {
+			isa = PBXGroup;
+			children = (
+				47B3142E202FF8AE00FBE70B /* NSString+Validation.h */,
+				47B3142F202FF8AE00FBE70B /* NSString+Validation.m */,
+			);
+			path = validation;
+			sourceTree = "<group>";
+		};
+		47D4B208208194B900A07243 /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				47D4B20F208194B900A07243 /* MockApiFactory.h */,
+				47D4B209208194B900A07243 /* MockApiFactory.m */,
+				47D4B20A208194B900A07243 /* data */,
+			);
+			path = mock;
+			sourceTree = "<group>";
+		};
+		47D4B20A208194B900A07243 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				47D4B20B208194B900A07243 /* put_payment.json */,
+				47D4B20C208194B900A07243 /* places.json */,
+				47D4B20D208194B900A07243 /* user.json */,
+				47D4B20E208194B900A07243 /* payments.json */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		57666570B7E5C3E03086F9F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F53458173388DE25BA3A909 /* libPods-ApiModule.a */,
+				10E7E3CEAD9EF70A935FFD3B /* libPods-ApiModuleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47664994202F24A800AE1406 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B311E6202F260100FBE70B /* ApiError.h in Headers */,
+				47D4B215208194B900A07243 /* MockApiFactory.h in Headers */,
+				47B311E4202F260100FBE70B /* DefaultErrorResolver.h in Headers */,
+				47B311C7202F260100FBE70B /* DefaultPlaceApi.h in Headers */,
+				47B311CC202F260100FBE70B /* Place+Private.h in Headers */,
+				47B311B3202F260100FBE70B /* PaymentApiURLGenerator.h in Headers */,
+				47B311E0202F260100FBE70B /* UserCredentials.h in Headers */,
+				47B311DF202F260100FBE70B /* Session.h in Headers */,
+				47B311C6202F260100FBE70B /* DefaultPlaceApiURLGenerator.h in Headers */,
+				47B311EA202F260100FBE70B /* DefaultApiFactory.h in Headers */,
+				47B311E7202F260100FBE70B /* ApiError+Private.h in Headers */,
+				47B311C0202F260100FBE70B /* Payment+Private.h in Headers */,
+				47B311BC202F260100FBE70B /* PayRequestModel.h in Headers */,
+				47B311D8202F260100FBE70B /* DefaultUserApiURLGenerator.h in Headers */,
+				47B311DC202F260100FBE70B /* Session+Private.h in Headers */,
+				47B311CE202F260100FBE70B /* Places.h in Headers */,
+				47B311C4202F260100FBE70B /* PaymentApi.h in Headers */,
+				47B311EB202F260100FBE70B /* ApiFactory.h in Headers */,
+				47B31430202FF8AE00FBE70B /* NSString+Validation.h in Headers */,
+				47B311D4202F260100FBE70B /* UserApiURLGenerator.h in Headers */,
+				47B311CA202F260100FBE70B /* PlaceLocation.h in Headers */,
+				47B311E3202F260100FBE70B /* ApiErrorResolver.h in Headers */,
+				47B311D3202F260100FBE70B /* PlaceApi.h in Headers */,
+				47B311B9202F260100FBE70B /* PayRequestModel+Private.h in Headers */,
+				47B311E1202F260100FBE70B /* UserApi.h in Headers */,
+				47B311BA202F260100FBE70B /* Payments+Private.h in Headers */,
+				47B311D6202F260100FBE70B /* DefaultSessionManager.h in Headers */,
+				47B311B6202F260100FBE70B /* DefaultPaymentApi.h in Headers */,
+				47B311CF202F260100FBE70B /* PlaceLocation+Private.h in Headers */,
+				47B311D7202F260100FBE70B /* DefaultUserApi.h in Headers */,
+				47B311B7202F260100FBE70B /* DefaultPaymentApiURLGenerator.h in Headers */,
+				47B311DE202F260100FBE70B /* UserCredentials+Private.h in Headers */,
+				47B311AF202F260100FBE70B /* ApiConfiguration.h in Headers */,
+				47B311E2202F260100FBE70B /* SessionManager.h in Headers */,
+				47B311CB202F260100FBE70B /* Places+Private.h in Headers */,
+				47B311C9202F260100FBE70B /* PlaceApiURLGenerator.h in Headers */,
+				47B311B8202F260100FBE70B /* CreditCard+Private.h in Headers */,
+				47B311D2202F260100FBE70B /* Place.h in Headers */,
+				476649A8202F24A800AE1406 /* ApiModule.h in Headers */,
+				47B311BE202F260100FBE70B /* Payment.h in Headers */,
+				47B311BD202F260100FBE70B /* CreditCard.h in Headers */,
+				47B311BF202F260100FBE70B /* Payments.h in Headers */,
+				47B311B0202F260100FBE70B /* CustomURLSession.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47664996202F24A800AE1406 /* ApiModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476649AB202F24A800AE1406 /* Build configuration list for PBXNativeTarget "ApiModule" */;
+			buildPhases = (
+				9247913BFFCFBDF1050329A6 /* [CP] Check Pods Manifest.lock */,
+				47664992202F24A800AE1406 /* Sources */,
+				47664993202F24A800AE1406 /* Frameworks */,
+				47664994202F24A800AE1406 /* Headers */,
+				47664995202F24A800AE1406 /* Resources */,
+				771423FDD8E439475970FF27 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApiModule;
+			productName = ApiModule;
+			productReference = 47664997202F24A800AE1406 /* ApiModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4766499F202F24A800AE1406 /* ApiModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476649AE202F24A800AE1406 /* Build configuration list for PBXNativeTarget "ApiModuleTests" */;
+			buildPhases = (
+				48E6D6B881DE3116E488E185 /* [CP] Check Pods Manifest.lock */,
+				4766499C202F24A800AE1406 /* Sources */,
+				4766499D202F24A800AE1406 /* Frameworks */,
+				4766499E202F24A800AE1406 /* Resources */,
+				C1176EE7576FF00D89E1EBA1 /* [CP] Embed Pods Frameworks */,
+				8017F2639127C2F3660B1121 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				476649A3202F24A800AE1406 /* PBXTargetDependency */,
+			);
+			name = ApiModuleTests;
+			productName = ApiModuleTests;
+			productReference = 476649A0202F24A800AE1406 /* ApiModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4766498E202F24A800AE1406 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Eli;
+				TargetAttributes = {
+					47664996202F24A800AE1406 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4766499F202F24A800AE1406 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 47664991202F24A800AE1406 /* Build configuration list for PBXProject "ApiModule" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4766498D202F24A800AE1406;
+			productRefGroup = 47664998202F24A800AE1406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47664996202F24A800AE1406 /* ApiModule */,
+				4766499F202F24A800AE1406 /* ApiModuleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47664995202F24A800AE1406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D4B213208194B900A07243 /* user.json in Resources */,
+				47D4B212208194B900A07243 /* places.json in Resources */,
+				47D4B214208194B900A07243 /* payments.json in Resources */,
+				47D4B211208194B900A07243 /* put_payment.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4766499E202F24A800AE1406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48E6D6B881DE3116E488E185 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApiModuleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		771423FDD8E439475970FF27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ApiModule/Pods-ApiModule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8017F2639127C2F3660B1121 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ApiModuleTests/Pods-ApiModuleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9247913BFFCFBDF1050329A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApiModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1176EE7576FF00D89E1EBA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ApiModuleTests/Pods-ApiModuleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47664992202F24A800AE1406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B3110C202F25D400FBE70B /* ApiModule.m in Sources */,
+				47B311DD202F260100FBE70B /* UserCredentials.m in Sources */,
+				47B311B5202F260100FBE70B /* DefaultPaymentApiURLGenerator.m in Sources */,
+				47D4B210208194B900A07243 /* MockApiFactory.m in Sources */,
+				47B311C2202F260100FBE70B /* Payment.m in Sources */,
+				47B311CD202F260100FBE70B /* Place.m in Sources */,
+				47B311C8202F260100FBE70B /* DefaultPlaceApiURLGenerator.m in Sources */,
+				47B311E5202F260100FBE70B /* DefaultErrorResolver.m in Sources */,
+				47B311BB202F260100FBE70B /* Payments.m in Sources */,
+				47B311D9202F260100FBE70B /* DefaultSessionManager.m in Sources */,
+				47B311B1202F260100FBE70B /* CustomURLSession.m in Sources */,
+				47B311DB202F260100FBE70B /* Session.m in Sources */,
+				47B31431202FF8AE00FBE70B /* NSString+Validation.m in Sources */,
+				47B311D1202F260100FBE70B /* Places.m in Sources */,
+				47B311C3202F260100FBE70B /* CreditCard.m in Sources */,
+				47B311C5202F260100FBE70B /* DefaultPlaceApi.m in Sources */,
+				47B311B2202F260100FBE70B /* ApiConfiguration.m in Sources */,
+				47B311B4202F260100FBE70B /* DefaultPaymentApi.m in Sources */,
+				47B311DA202F260100FBE70B /* DefaultUserApi.m in Sources */,
+				47B311E9202F260100FBE70B /* DefaultApiFactory.m in Sources */,
+				47B311D5202F260100FBE70B /* DefaultUserApiURLGenerator.m in Sources */,
+				47B311E8202F260100FBE70B /* ApiError.m in Sources */,
+				47B311C1202F260100FBE70B /* PayRequestModel.m in Sources */,
+				47B311D0202F260100FBE70B /* PlaceLocation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4766499C202F24A800AE1406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B312DF202F263E00FBE70B /* apiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		476649A3202F24A800AE1406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47664996202F24A800AE1406 /* ApiModule */;
+			targetProxy = 476649A2202F24A800AE1406 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		476649A9202F24A800AE1406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		476649AA202F24A800AE1406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		476649AC202F24A800AE1406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBD7B880B016ADEDDC6F0395 /* Pods-ApiModule.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ApiModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Eli.ApiModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		476649AD202F24A800AE1406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4783E35744ECDFFB9DDA21 /* Pods-ApiModule.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ApiModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Eli.ApiModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		476649AF202F24A800AE1406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C033F09B5DB227DE4773A37F /* Pods-ApiModuleTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ApiModuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eli.ApiModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		476649B0202F24A800AE1406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FBC6A235822909322735022 /* Pods-ApiModuleTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ApiModuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eli.ApiModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47664991202F24A800AE1406 /* Build configuration list for PBXProject "ApiModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476649A9202F24A800AE1406 /* Debug */,
+				476649AA202F24A800AE1406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476649AB202F24A800AE1406 /* Build configuration list for PBXNativeTarget "ApiModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476649AC202F24A800AE1406 /* Debug */,
+				476649AD202F24A800AE1406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476649AE202F24A800AE1406 /* Build configuration list for PBXNativeTarget "ApiModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476649AF202F24A800AE1406 /* Debug */,
+				476649B0202F24A800AE1406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4766498E202F24A800AE1406 /* Project object */;
+}

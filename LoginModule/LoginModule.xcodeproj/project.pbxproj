@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4766497D202F249600AE1406 /* LoginModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47664973202F249600AE1406 /* LoginModule.framework */; };
+		47664984202F249600AE1406 /* LoginModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 47664976202F249600AE1406 /* LoginModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B312F7202F274400FBE70B /* RegisterContract.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B312E3202F274400FBE70B /* RegisterContract.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B312F8202F274400FBE70B /* RegisterPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B312E4202F274400FBE70B /* RegisterPresenter.h */; };
+		47B312F9202F274400FBE70B /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B312E5202F274400FBE70B /* RegisterViewController.m */; };
+		47B312FA202F274400FBE70B /* RegisterPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B312E6202F274400FBE70B /* RegisterPresenter.m */; };
+		47B312FB202F274400FBE70B /* RegisterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B312E7202F274400FBE70B /* RegisterViewController.h */; };
+		47B312FC202F274400FBE70B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B312E9202F274400FBE70B /* LoginViewController.m */; };
+		47B312FD202F274400FBE70B /* LoginPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B312EA202F274400FBE70B /* LoginPresenter.m */; };
+		47B312FE202F274400FBE70B /* LoginContract.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B312EB202F274400FBE70B /* LoginContract.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B312FF202F274400FBE70B /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B312EC202F274400FBE70B /* LoginViewController.h */; };
+		47B31300202F274400FBE70B /* LoginPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B312ED202F274400FBE70B /* LoginPresenter.h */; };
+		47B31301202F274400FBE70B /* DefaultLoginFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B312EF202F274400FBE70B /* DefaultLoginFactory.h */; };
+		47B31302202F274400FBE70B /* DefaultLoginFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B312F0202F274400FBE70B /* DefaultLoginFactory.m */; };
+		47B31303202F274400FBE70B /* LoginFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B312F1202F274400FBE70B /* LoginFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B31304202F274400FBE70B /* DefaultLoginRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B312F3202F274400FBE70B /* DefaultLoginRouter.m */; };
+		47B31305202F274400FBE70B /* LoginRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B312F4202F274400FBE70B /* LoginRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B31306202F274400FBE70B /* DefaultLoginRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B312F5202F274400FBE70B /* DefaultLoginRouter.h */; };
+		47B31307202F274400FBE70B /* LoginModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B312F6202F274400FBE70B /* LoginModule.m */; };
+		47B31309202F275B00FBE70B /* ApiModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B3130A202F275B00FBE70B /* ApiModule.framework */; };
+		47B31313202FA96A00FBE70B /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B31312202FA96A00FBE70B /* login.storyboard */; };
+		47B313CF202FC53500FBE70B /* UIModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B313D0202FC53500FBE70B /* UIModule.framework */; };
+		47B3143F20304F9C00FBE70B /* LoginPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B3143E20304F9C00FBE70B /* LoginPresenterTests.m */; };
+		B42E368D858B2DBDD759C51F /* libPods-LoginModuleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3A6A1B652F44ABA17AB49B /* libPods-LoginModuleTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4766497E202F249600AE1406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4766496A202F249600AE1406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47664972202F249600AE1406;
+			remoteInfo = LoginModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D485B1879B31A998E65085B /* Pods-LoginModuleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginModuleTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-LoginModuleTests/Pods-LoginModuleTests.release.xcconfig"; sourceTree = "<group>"; };
+		47664973202F249600AE1406 /* LoginModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47664976202F249600AE1406 /* LoginModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginModule.h; sourceTree = "<group>"; };
+		47664977202F249600AE1406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4766497C202F249600AE1406 /* LoginModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47664983202F249600AE1406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47B312E3202F274400FBE70B /* RegisterContract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterContract.h; sourceTree = "<group>"; };
+		47B312E4202F274400FBE70B /* RegisterPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterPresenter.h; sourceTree = "<group>"; };
+		47B312E5202F274400FBE70B /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		47B312E6202F274400FBE70B /* RegisterPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterPresenter.m; sourceTree = "<group>"; };
+		47B312E7202F274400FBE70B /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		47B312E9202F274400FBE70B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		47B312EA202F274400FBE70B /* LoginPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPresenter.m; sourceTree = "<group>"; };
+		47B312EB202F274400FBE70B /* LoginContract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginContract.h; sourceTree = "<group>"; };
+		47B312EC202F274400FBE70B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		47B312ED202F274400FBE70B /* LoginPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPresenter.h; sourceTree = "<group>"; };
+		47B312EF202F274400FBE70B /* DefaultLoginFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultLoginFactory.h; sourceTree = "<group>"; };
+		47B312F0202F274400FBE70B /* DefaultLoginFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultLoginFactory.m; sourceTree = "<group>"; };
+		47B312F1202F274400FBE70B /* LoginFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginFactory.h; sourceTree = "<group>"; };
+		47B312F3202F274400FBE70B /* DefaultLoginRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultLoginRouter.m; sourceTree = "<group>"; };
+		47B312F4202F274400FBE70B /* LoginRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRouter.h; sourceTree = "<group>"; };
+		47B312F5202F274400FBE70B /* DefaultLoginRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultLoginRouter.h; sourceTree = "<group>"; };
+		47B312F6202F274400FBE70B /* LoginModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginModule.m; sourceTree = "<group>"; };
+		47B3130A202F275B00FBE70B /* ApiModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ApiModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B31312202FA96A00FBE70B /* login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = login.storyboard; sourceTree = "<group>"; };
+		47B313D0202FC53500FBE70B /* UIModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B3143E20304F9C00FBE70B /* LoginPresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPresenterTests.m; sourceTree = "<group>"; };
+		91F8726F4C054B8BA9186C62 /* Pods-LoginModuleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginModuleTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-LoginModuleTests/Pods-LoginModuleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC3A6A1B652F44ABA17AB49B /* libPods-LoginModuleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoginModuleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4766496F202F249600AE1406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B313CF202FC53500FBE70B /* UIModule.framework in Frameworks */,
+				47B31309202F275B00FBE70B /* ApiModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47664979202F249600AE1406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4766497D202F249600AE1406 /* LoginModule.framework in Frameworks */,
+				B42E368D858B2DBDD759C51F /* libPods-LoginModuleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47664969202F249600AE1406 = {
+			isa = PBXGroup;
+			children = (
+				47664975202F249600AE1406 /* LoginModule */,
+				47664980202F249600AE1406 /* LoginModuleTests */,
+				47664974202F249600AE1406 /* Products */,
+				47B31308202F275B00FBE70B /* Frameworks */,
+				7833373F2A4E1DC422694C50 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		47664974202F249600AE1406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47664973202F249600AE1406 /* LoginModule.framework */,
+				4766497C202F249600AE1406 /* LoginModuleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47664975202F249600AE1406 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				47B312E0202F274400FBE70B /* classes */,
+				47664977202F249600AE1406 /* Info.plist */,
+				47664976202F249600AE1406 /* LoginModule.h */,
+				47B312F6202F274400FBE70B /* LoginModule.m */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		47664980202F249600AE1406 /* LoginModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				47B3143620304E0400FBE70B /* classes */,
+				47664983202F249600AE1406 /* Info.plist */,
+			);
+			path = LoginModuleTests;
+			sourceTree = "<group>";
+		};
+		47B312E0202F274400FBE70B /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				47B312E1202F274400FBE70B /* features */,
+				47B312EE202F274400FBE70B /* factory */,
+				47B312F2202F274400FBE70B /* router */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		47B312E1202F274400FBE70B /* features */ = {
+			isa = PBXGroup;
+			children = (
+				47B312E2202F274400FBE70B /* register */,
+				47B312E8202F274400FBE70B /* login */,
+				47B31312202FA96A00FBE70B /* login.storyboard */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		47B312E2202F274400FBE70B /* register */ = {
+			isa = PBXGroup;
+			children = (
+				47B312E3202F274400FBE70B /* RegisterContract.h */,
+				47B312E4202F274400FBE70B /* RegisterPresenter.h */,
+				47B312E6202F274400FBE70B /* RegisterPresenter.m */,
+				47B312E7202F274400FBE70B /* RegisterViewController.h */,
+				47B312E5202F274400FBE70B /* RegisterViewController.m */,
+			);
+			path = register;
+			sourceTree = "<group>";
+		};
+		47B312E8202F274400FBE70B /* login */ = {
+			isa = PBXGroup;
+			children = (
+				47B312EB202F274400FBE70B /* LoginContract.h */,
+				47B312ED202F274400FBE70B /* LoginPresenter.h */,
+				47B312EA202F274400FBE70B /* LoginPresenter.m */,
+				47B312EC202F274400FBE70B /* LoginViewController.h */,
+				47B312E9202F274400FBE70B /* LoginViewController.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		47B312EE202F274400FBE70B /* factory */ = {
+			isa = PBXGroup;
+			children = (
+				47B312EF202F274400FBE70B /* DefaultLoginFactory.h */,
+				47B312F0202F274400FBE70B /* DefaultLoginFactory.m */,
+				47B312F1202F274400FBE70B /* LoginFactory.h */,
+			);
+			path = factory;
+			sourceTree = "<group>";
+		};
+		47B312F2202F274400FBE70B /* router */ = {
+			isa = PBXGroup;
+			children = (
+				47B312F5202F274400FBE70B /* DefaultLoginRouter.h */,
+				47B312F3202F274400FBE70B /* DefaultLoginRouter.m */,
+				47B312F4202F274400FBE70B /* LoginRouter.h */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		47B31308202F275B00FBE70B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47B313D0202FC53500FBE70B /* UIModule.framework */,
+				47B3130A202F275B00FBE70B /* ApiModule.framework */,
+				FC3A6A1B652F44ABA17AB49B /* libPods-LoginModuleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47B3143620304E0400FBE70B /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				47B3143E20304F9C00FBE70B /* LoginPresenterTests.m */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		7833373F2A4E1DC422694C50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91F8726F4C054B8BA9186C62 /* Pods-LoginModuleTests.debug.xcconfig */,
+				0D485B1879B31A998E65085B /* Pods-LoginModuleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47664970202F249600AE1406 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47664984202F249600AE1406 /* LoginModule.h in Headers */,
+				47B31301202F274400FBE70B /* DefaultLoginFactory.h in Headers */,
+				47B312F8202F274400FBE70B /* RegisterPresenter.h in Headers */,
+				47B31305202F274400FBE70B /* LoginRouter.h in Headers */,
+				47B31300202F274400FBE70B /* LoginPresenter.h in Headers */,
+				47B312FE202F274400FBE70B /* LoginContract.h in Headers */,
+				47B31303202F274400FBE70B /* LoginFactory.h in Headers */,
+				47B312FB202F274400FBE70B /* RegisterViewController.h in Headers */,
+				47B312F7202F274400FBE70B /* RegisterContract.h in Headers */,
+				47B31306202F274400FBE70B /* DefaultLoginRouter.h in Headers */,
+				47B312FF202F274400FBE70B /* LoginViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47664972202F249600AE1406 /* LoginModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47664987202F249600AE1406 /* Build configuration list for PBXNativeTarget "LoginModule" */;
+			buildPhases = (
+				4766496E202F249600AE1406 /* Sources */,
+				4766496F202F249600AE1406 /* Frameworks */,
+				47664970202F249600AE1406 /* Headers */,
+				47664971202F249600AE1406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginModule;
+			productName = LoginModule;
+			productReference = 47664973202F249600AE1406 /* LoginModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4766497B202F249600AE1406 /* LoginModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4766498A202F249600AE1406 /* Build configuration list for PBXNativeTarget "LoginModuleTests" */;
+			buildPhases = (
+				AA0AEC14BB7CCEF2B7374D0B /* [CP] Check Pods Manifest.lock */,
+				47664978202F249600AE1406 /* Sources */,
+				47664979202F249600AE1406 /* Frameworks */,
+				4766497A202F249600AE1406 /* Resources */,
+				E1AA49127363E4DCC55F6254 /* [CP] Embed Pods Frameworks */,
+				28AF4BA53CA101AB0D96F04B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4766497F202F249600AE1406 /* PBXTargetDependency */,
+			);
+			name = LoginModuleTests;
+			productName = LoginModuleTests;
+			productReference = 4766497C202F249600AE1406 /* LoginModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4766496A202F249600AE1406 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Eli;
+				TargetAttributes = {
+					47664972202F249600AE1406 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4766497B202F249600AE1406 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4766496D202F249600AE1406 /* Build configuration list for PBXProject "LoginModule" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 47664969202F249600AE1406;
+			productRefGroup = 47664974202F249600AE1406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47664972202F249600AE1406 /* LoginModule */,
+				4766497B202F249600AE1406 /* LoginModuleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47664971202F249600AE1406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B31313202FA96A00FBE70B /* login.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4766497A202F249600AE1406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28AF4BA53CA101AB0D96F04B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-LoginModuleTests/Pods-LoginModuleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA0AEC14BB7CCEF2B7374D0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginModuleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1AA49127363E4DCC55F6254 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-LoginModuleTests/Pods-LoginModuleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4766496E202F249600AE1406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B312FD202F274400FBE70B /* LoginPresenter.m in Sources */,
+				47B312F9202F274400FBE70B /* RegisterViewController.m in Sources */,
+				47B31307202F274400FBE70B /* LoginModule.m in Sources */,
+				47B31302202F274400FBE70B /* DefaultLoginFactory.m in Sources */,
+				47B312FA202F274400FBE70B /* RegisterPresenter.m in Sources */,
+				47B31304202F274400FBE70B /* DefaultLoginRouter.m in Sources */,
+				47B312FC202F274400FBE70B /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47664978202F249600AE1406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B3143F20304F9C00FBE70B /* LoginPresenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4766497F202F249600AE1406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47664972202F249600AE1406 /* LoginModule */;
+			targetProxy = 4766497E202F249600AE1406 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		47664985202F249600AE1406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47664986202F249600AE1406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47664988202F249600AE1406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LoginModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eli.LoginModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47664989202F249600AE1406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LoginModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eli.LoginModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4766498B202F249600AE1406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F8726F4C054B8BA9186C62 /* Pods-LoginModuleTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoginModuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eli.LoginModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4766498C202F249600AE1406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D485B1879B31A998E65085B /* Pods-LoginModuleTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoginModuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eli.LoginModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4766496D202F249600AE1406 /* Build configuration list for PBXProject "LoginModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47664985202F249600AE1406 /* Debug */,
+				47664986202F249600AE1406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47664987202F249600AE1406 /* Build configuration list for PBXNativeTarget "LoginModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47664988202F249600AE1406 /* Debug */,
+				47664989202F249600AE1406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4766498A202F249600AE1406 /* Build configuration list for PBXNativeTarget "LoginModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4766498B202F249600AE1406 /* Debug */,
+				4766498C202F249600AE1406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4766496A202F249600AE1406 /* Project object */;
+}

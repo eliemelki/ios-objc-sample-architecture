@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:UIModule/UIModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PlaceModule/PlaceModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PaymentModule/PaymentModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LoginModule/LoginModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ApiModule/ApiModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:app/app.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

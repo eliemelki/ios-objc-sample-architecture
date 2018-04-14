@@ -1,0 +1,28 @@
+{
+    "payments": [{
+                 "updatedAt": "2016-12-23T19:32:59.144Z",
+                 "createdAt": "2016-12-23T19:32:59.144Z",
+                 "creditCard": {
+                 "number": "4111111111111111",
+                 "name": "adrianobragaalencar",
+                 "cvv": "123",
+                 "expiryMonth": "03",
+                 "expiryYear": "2100"
+                 },
+                 "email": "adrianobragaalencar@gmail.com",
+                 "placeId": "45c0b5209973fcec652817e16e20f1d0b4ecb602"
+                 },
+                 {
+                 "updatedAt": "2016-12-23T19:33:25.497Z",
+                 "createdAt": "2016-12-23T19:33:25.497Z",
+                 "creditCard": {
+                 "number": "4111111111111111",
+                 "name": "adrianobragaalencar",
+                 "cvv": "123",
+                 "expiryMonth": "12",
+                 "expiryYear": "2020"
+                 },
+                 "email": "adrianobragaalencar@gmail.com",
+                 "placeId": "45c0b5209973fcec652817e16e20f1d0b4ecb602"
+                 }]
+}
