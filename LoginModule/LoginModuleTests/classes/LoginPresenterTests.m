@@ -51,7 +51,7 @@
 
 - (void) testPresenterValidation {
     id<UserApi> userApi = [MockUserApi new];
-    MockLoginView *view = [MockLoginView new];x
+    MockLoginView *view = [MockLoginView new];
     LoginPresenter *presenter = [[LoginPresenter alloc] initWithUserApi:userApi];
     [presenter setView:view];
     

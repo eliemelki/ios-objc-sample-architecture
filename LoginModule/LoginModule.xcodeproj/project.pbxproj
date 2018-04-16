@@ -30,7 +30,6 @@
 		47B31313202FA96A00FBE70B /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B31312202FA96A00FBE70B /* login.storyboard */; };
 		47B313CF202FC53500FBE70B /* UIModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B313D0202FC53500FBE70B /* UIModule.framework */; };
 		47B3143F20304F9C00FBE70B /* LoginPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B3143E20304F9C00FBE70B /* LoginPresenterTests.m */; };
-		B42E368D858B2DBDD759C51F /* libPods-LoginModuleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3A6A1B652F44ABA17AB49B /* libPods-LoginModuleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,7 +89,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4766497D202F249600AE1406 /* LoginModule.framework in Frameworks */,
-				B42E368D858B2DBDD759C51F /* libPods-LoginModuleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,12 +272,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4766498A202F249600AE1406 /* Build configuration list for PBXNativeTarget "LoginModuleTests" */;
 			buildPhases = (
-				AA0AEC14BB7CCEF2B7374D0B /* [CP] Check Pods Manifest.lock */,
 				47664978202F249600AE1406 /* Sources */,
 				47664979202F249600AE1406 /* Frameworks */,
 				4766497A202F249600AE1406 /* Resources */,
-				E1AA49127363E4DCC55F6254 /* [CP] Embed Pods Frameworks */,
-				28AF4BA53CA101AB0D96F04B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -345,57 +340,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		28AF4BA53CA101AB0D96F04B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-LoginModuleTests/Pods-LoginModuleTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AA0AEC14BB7CCEF2B7374D0B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LoginModuleTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E1AA49127363E4DCC55F6254 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-LoginModuleTests/Pods-LoginModuleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4766496E202F249600AE1406 /* Sources */ = {
@@ -581,7 +525,6 @@
 		};
 		4766498B202F249600AE1406 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91F8726F4C054B8BA9186C62 /* Pods-LoginModuleTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoginModuleTests/Info.plist;
@@ -594,7 +537,6 @@
 		};
 		4766498C202F249600AE1406 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D485B1879B31A998E65085B /* Pods-LoginModuleTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoginModuleTests/Info.plist;

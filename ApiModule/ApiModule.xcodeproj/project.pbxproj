@@ -81,7 +81,7 @@
 		47D4B213208194B900A07243 /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 47D4B20D208194B900A07243 /* user.json */; };
 		47D4B214208194B900A07243 /* payments.json in Resources */ = {isa = PBXBuildFile; fileRef = 47D4B20E208194B900A07243 /* payments.json */; };
 		47D4B215208194B900A07243 /* MockApiFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D4B20F208194B900A07243 /* MockApiFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3157E67F57B61C454ACA127 /* libPods-ApiModuleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E7E3CEAD9EF70A935FFD3B /* libPods-ApiModuleTests.a */; };
+		6332A253A10E9F90BA188B86 /* libPods-ApiModule-ApiModuleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F4A642929C11503C74A603 /* libPods-ApiModule-ApiModuleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,7 +174,10 @@
 		47D4B20E208194B900A07243 /* payments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = payments.json; sourceTree = "<group>"; };
 		47D4B20F208194B900A07243 /* MockApiFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockApiFactory.h; sourceTree = "<group>"; };
 		4F53458173388DE25BA3A909 /* libPods-ApiModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ApiModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F4A642929C11503C74A603 /* libPods-ApiModule-ApiModuleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ApiModule-ApiModuleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBC6A235822909322735022 /* Pods-ApiModuleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiModuleTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ApiModuleTests/Pods-ApiModuleTests.release.xcconfig"; sourceTree = "<group>"; };
+		A5DA5DF54A1C5C3D6CF7B728 /* Pods-ApiModule-ApiModuleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiModule-ApiModuleTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ApiModule-ApiModuleTests/Pods-ApiModule-ApiModuleTests.release.xcconfig"; sourceTree = "<group>"; };
+		A84FFC6E7FDE9C4BB899B99D /* Pods-ApiModule-ApiModuleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiModule-ApiModuleTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ApiModule-ApiModuleTests/Pods-ApiModule-ApiModuleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C033F09B5DB227DE4773A37F /* Pods-ApiModuleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiModuleTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ApiModuleTests/Pods-ApiModuleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DBD7B880B016ADEDDC6F0395 /* Pods-ApiModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiModule.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ApiModule/Pods-ApiModule.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				476649A1202F24A800AE1406 /* ApiModule.framework in Frameworks */,
-				D3157E67F57B61C454ACA127 /* libPods-ApiModuleTests.a in Frameworks */,
+				6332A253A10E9F90BA188B86 /* libPods-ApiModule-ApiModuleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +210,8 @@
 				0B4783E35744ECDFFB9DDA21 /* Pods-ApiModule.release.xcconfig */,
 				C033F09B5DB227DE4773A37F /* Pods-ApiModuleTests.debug.xcconfig */,
 				8FBC6A235822909322735022 /* Pods-ApiModuleTests.release.xcconfig */,
+				A84FFC6E7FDE9C4BB899B99D /* Pods-ApiModule-ApiModuleTests.debug.xcconfig */,
+				A5DA5DF54A1C5C3D6CF7B728 /* Pods-ApiModule-ApiModuleTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -500,6 +505,7 @@
 			children = (
 				4F53458173388DE25BA3A909 /* libPods-ApiModule.a */,
 				10E7E3CEAD9EF70A935FFD3B /* libPods-ApiModuleTests.a */,
+				68F4A642929C11503C74A603 /* libPods-ApiModule-ApiModuleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -671,7 +677,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ApiModuleTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ApiModule-ApiModuleTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -705,7 +711,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ApiModuleTests/Pods-ApiModuleTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ApiModule-ApiModuleTests/Pods-ApiModule-ApiModuleTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9247913BFFCFBDF1050329A6 /* [CP] Check Pods Manifest.lock */ = {
@@ -738,7 +744,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ApiModuleTests/Pods-ApiModuleTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ApiModule-ApiModuleTests/Pods-ApiModule-ApiModuleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -948,7 +954,7 @@
 		};
 		476649AF202F24A800AE1406 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C033F09B5DB227DE4773A37F /* Pods-ApiModuleTests.debug.xcconfig */;
+			baseConfigurationReference = A84FFC6E7FDE9C4BB899B99D /* Pods-ApiModule-ApiModuleTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ApiModuleTests/Info.plist;
@@ -961,7 +967,7 @@
 		};
 		476649B0202F24A800AE1406 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FBC6A235822909322735022 /* Pods-ApiModuleTests.release.xcconfig */;
+			baseConfigurationReference = A5DA5DF54A1C5C3D6CF7B728 /* Pods-ApiModule-ApiModuleTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ApiModuleTests/Info.plist;

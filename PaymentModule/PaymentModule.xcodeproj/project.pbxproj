@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E390F56AD1CCD152031B55F /* libPods-PaymentModuleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB95164F3F7DF429CCF12086 /* libPods-PaymentModuleTests.a */; };
 		47B31328202FBE5F00FBE70B /* PaymentModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B3131E202FBE5F00FBE70B /* PaymentModule.framework */; };
 		47B3132D202FBE5F00FBE70B /* PaymentModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B3132C202FBE5F00FBE70B /* PaymentModuleTests.m */; };
 		47B3132F202FBE5F00FBE70B /* PaymentModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B31321202FBE5F00FBE70B /* PaymentModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -84,7 +83,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				47B31328202FBE5F00FBE70B /* PaymentModule.framework in Frameworks */,
-				0E390F56AD1CCD152031B55F /* libPods-PaymentModuleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,12 +245,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47B31335202FBE5F00FBE70B /* Build configuration list for PBXNativeTarget "PaymentModuleTests" */;
 			buildPhases = (
-				4FB020136744D1EB0E28A731 /* [CP] Check Pods Manifest.lock */,
 				47B31323202FBE5F00FBE70B /* Sources */,
 				47B31324202FBE5F00FBE70B /* Frameworks */,
 				47B31325202FBE5F00FBE70B /* Resources */,
-				259A35816278DFB6D0ADB6E3 /* [CP] Embed Pods Frameworks */,
-				FBA4C9767B3E78AABEDCCB42 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -318,57 +313,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		259A35816278DFB6D0ADB6E3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-PaymentModuleTests/Pods-PaymentModuleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4FB020136744D1EB0E28A731 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PaymentModuleTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FBA4C9767B3E78AABEDCCB42 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-PaymentModuleTests/Pods-PaymentModuleTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		47B31319202FBE5F00FBE70B /* Sources */ = {
@@ -553,7 +497,6 @@
 		};
 		47B31336202FBE5F00FBE70B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BF0897CA18FC504F826425B /* Pods-PaymentModuleTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PaymentModuleTests/Info.plist;
@@ -566,7 +509,6 @@
 		};
 		47B31337202FBE5F00FBE70B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AE56FD8E662B91389D70A7A /* Pods-PaymentModuleTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PaymentModuleTests/Info.plist;

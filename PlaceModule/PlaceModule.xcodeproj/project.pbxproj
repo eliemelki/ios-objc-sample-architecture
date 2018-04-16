@@ -30,7 +30,6 @@
 		47B313F8202FC76500FBE70B /* RentPlaceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B313F6202FC76500FBE70B /* RentPlaceViewController.h */; };
 		47B313F9202FC76500FBE70B /* RentPlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B313F7202FC76500FBE70B /* RentPlaceViewController.m */; };
 		47B313FB202FC76F00FBE70B /* place.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B313FA202FC76F00FBE70B /* place.storyboard */; };
-		AACB19B314B6F8F5B0806EB0 /* libPods-PlaceModuleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 328A4E9BAE9250111B9733E4 /* libPods-PlaceModuleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,7 +89,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				47B3134C202FBE7000FBE70B /* PlaceModule.framework in Frameworks */,
-				AACB19B314B6F8F5B0806EB0 /* libPods-PlaceModuleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,12 +264,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47B31359202FBE7000FBE70B /* Build configuration list for PBXNativeTarget "PlaceModuleTests" */;
 			buildPhases = (
-				18C9F49EB195B3DE45FF39E0 /* [CP] Check Pods Manifest.lock */,
 				47B31347202FBE7000FBE70B /* Sources */,
 				47B31348202FBE7000FBE70B /* Frameworks */,
 				47B31349202FBE7000FBE70B /* Resources */,
-				30E3F0DDC3820CDD32D76A41 /* [CP] Embed Pods Frameworks */,
-				2D9B7DD45E5533E8C4E6C2C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -337,57 +332,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		18C9F49EB195B3DE45FF39E0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PlaceModuleTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2D9B7DD45E5533E8C4E6C2C1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-PlaceModuleTests/Pods-PlaceModuleTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		30E3F0DDC3820CDD32D76A41 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-PlaceModuleTests/Pods-PlaceModuleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		47B3133D202FBE7000FBE70B /* Sources */ = {
@@ -573,7 +517,6 @@
 		};
 		47B3135A202FBE7000FBE70B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBE490F10D787A856786033A /* Pods-PlaceModuleTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PlaceModuleTests/Info.plist;
@@ -586,7 +529,6 @@
 		};
 		47B3135B202FBE7000FBE70B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2233CD3140BFC5DC33F68C7 /* Pods-PlaceModuleTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PlaceModuleTests/Info.plist;
